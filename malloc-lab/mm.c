@@ -1,35 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@enaa99 
-XxoSio
-/
-KraftonJungle-Malloc
-Public
-Fork your own copy of XxoSio/KraftonJungle-Malloc
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-KraftonJungle-Malloc/mm.c
-@XxoSio
-XxoSio review
-…
-Latest commit 6db10db on Dec 8, 2022
- History
- 1 contributor
-317 lines (280 sloc)  9.32 KB
-
-/*
- * mm-naive.c - The fastest, least memory-efficient malloc package.
+/* mm-naive.c - The fastest, least memory-efficient malloc package.
  * 
  * In this naive approach, a block is allocated by simply incrementing
  * the brk pointer.  A block is pure payload. There are no headers or
